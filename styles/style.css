@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url('Cocogoose-Bold.ttf') format('ttf');
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-ored {
+  color: rgb(255, 0, 0);
+}
+
+.color-orange {
+  color: orangered;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.underline-red:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.a-tag,
+.a-tag:hover {
+  color: inherit;
+}
+
+.top-nav {
+  font-size: 1.3rem;
+  height: 2.5rem;
+}
+
+.bot-nav {
+  height: 6rem;
+  font-size: 1.5rem;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  object-fit: cover;
+  width: 10rem;
+  height: 5rem;
+}
+
+.cc {
+  border: 2px solid red;
+}
+
+.main-section {
+  height: 60rem;
+}
+
+.main-section-item {
+  width: 70%;
+  height: 100%;
+  margin: 7rem auto;
+}
+
+.hello-title {
+  font-size: 3rem;
+}
+
+.main-title {
+  font-size: 4.5rem;
+  width: 62%;
+}
+
+.little-text-div {
+  border: 3px solid white;
+  width: 57%;
+  font-size: 1.3rem;
+}
+
+.date-div {
+  font-size: 1.5rem;
+}
+
+.date-bold {
+  font-size: 2rem;
+}
+
+.main-program {
+  height: 40rem;
+}
+
+.line {
+  width: 4rem;
+}
+
+.program-icon {
+  font-size: 4rem;
+}
+
+.program-grid {
+  font-size: 1.2rem;
+}
+
+.program-grid-item {
+  width: 15rem;
+  height: 20rem;
+  background-color: rgba(150, 150, 150, 0.3);
+  text-align: center;
+}
+
+.title-prog {
+  font-size: 1.5rem;
+}
+
+.prog-a {
+  text-decoration: underline;
+}
+
+.prog-a:hover {
+  color: white;
+}
+
+.speakers-section {
+}
+
+.feature {
+  width: 70%;
+}
+
+.feature-item {
+  width: 50%;
+}
+
+.corner-img {
+  height: 5rem;
+  transform: translate(3.5rem, -1.5rem);
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.feature-img {
+  object-fit: cover;
+  height: 10rem;
+  width: 10rem;
+  z-index: 1;
+}
+
+.feature-author {
+  font-size: 1.5rem;
+}
+
+.feature-size {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.line-b {
+  margin: 0.5rem ;
+  width: 2.5rem;
+  border-bottom: 1px solid gray;
+}
+
+.partner-section {
+  height: 18rem;
+}
+
+.partner-section-icon {
+  width: 60%;
+}
+
+.partner-icon {
+  font-size: 4rem;
+}
+
+.partner-img {
+  width: 8rem;
+  height: 3rem;
+  filter: grayscale(100%);
+}
+
+.partner-img-daum {
+  width: 10rem;
+  height: 3rem;
+  filter: invert(50%);
+}
+
+.footer {
+  padding: 7rem;
+}
+
+.footer-text {
+  width: 50%;
+}
