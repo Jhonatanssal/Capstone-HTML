@@ -82,41 +82,48 @@ body {
   border: 2px solid red;
 }
 
+.bars {
+  font-size: 3.5rem;
+}
+
 .main-section {
-  height: 60rem;
+  background-image: url(../img/main-bg.png);
 }
 
 .main-section-item {
-  width: 70%;
+  width: 80vw;
   height: 100%;
   margin: 7rem auto;
 }
 
 .hello-title {
-  font-size: 3rem;
+  font-size: 2.7vw;
 }
 
 .main-title {
-  font-size: 4.5rem;
-  width: 62%;
+  font-size: 5vw;
+  line-height: 4.5vw;
 }
 
 .little-text-div {
-  border: 3px solid white;
+  border: 3px solid gray;
+  background-color: rgba(200, 200, 200, 0.5);
   width: 57%;
-  font-size: 1.3rem;
+  font-size: 1.2vw;
 }
 
 .date-div {
-  font-size: 1.5rem;
+  font-size: 1.4vw;
 }
 
 .date-bold {
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .main-program {
-  height: 40rem;
+  height: auto;
+  background-image: url(../img/dark-bg.jpg);
+  background-size: 20rem;
 }
 
 .line {
@@ -124,11 +131,11 @@ body {
 }
 
 .program-icon {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .program-grid {
-  font-size: 1.2rem;
+  font-size: 1..2vw;
 }
 
 .program-grid-item {
@@ -139,7 +146,7 @@ body {
 }
 
 .title-prog {
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .prog-a {
@@ -150,15 +157,12 @@ body {
   color: white;
 }
 
-.speakers-section {
-}
-
 .feature {
-  width: 70%;
+  margin: auto 7vw;
 }
 
 .feature-item {
-  width: 50%;
+  margin-right: 2px;
 }
 
 .corner-img {
@@ -176,7 +180,7 @@ body {
 }
 
 .feature-author {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .feature-size {
@@ -195,7 +199,7 @@ body {
 }
 
 .partner-section-icon {
-  width: 60%;
+  padding: auto 5vw;
 }
 
 .partner-icon {
@@ -215,9 +219,44 @@ body {
 }
 
 .footer {
-  padding: 7rem;
+  padding: 6vw;
+}
+
+.footer-img {
+  height: 8vw;
 }
 
 .footer-text {
   width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .hello-title {
+    font-size: 2rem;
+  }
+
+  .little-text-div {
+    font-size: 1.2rem;
+  }
+
+  .date-div {
+    font-size: 1.5rem;
+  }
+  
+  .date-bold {
+    font-size: 1.6rem;
+  }
+
+  .feature-item {
+    padding-left: -3rem;
+  }
+
+  .footer-img {
+    height: 6rem;
+  }
 }

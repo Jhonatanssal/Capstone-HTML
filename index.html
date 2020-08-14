@@ -14,7 +14,7 @@
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
 
     <nav class="d-none d-md-flex justify-content-end align-items-center top-nav bg-dark color-white">
       <i class="fab fa-facebook-f top-nav-item pr-3"></i>
@@ -24,21 +24,22 @@
       <span class="capitalize top-nav-item pr-4">logout</span>
     </nav>
 
-    <nav class="bot-nav d-md-flex justify-content-between align-items-center bg-white position-sticky">
+    <nav class="bot-nav d-flex justify-content-between align-items-center bg-white position-sticky">
       <a href="#">
         <img class="nav-logo ml-4" src="img/nav-logo.png" alt="logo">
       </a>
-      <div class="pr-md-4">
-        <span class="capitalize px-4 color-ored"><a class="underline-red a-tag" href="about.html">about</a></span>
-        <span class="capitalize px-4"><a class="underline-red a-tag" href="tickets.html">tickets</a></span>
-        <span class="capitalize px-4"><a class="underline-red a-tag" href="#">join</a></span>
-        <span class="cc capitalize mx-4 p-3 rounded color-ored"><a class="underline-red a-tag" href="#">CC campaign</a></span>
+      <div class="pr-md-4 bot-nav-text">
+        <span class="capitalize px-4 color-ored"><a class="underline-red a-tag d-none d-md-inline" href="about.html">about</a></span>
+        <span class="capitalize px-4 d-none d-md-inline"><a class="underline-red a-tag" href="tickets.html">tickets</a></span>
+        <span class="capitalize px-4 d-none d-md-inline"><a class="underline-red a-tag" href="#">join</a></span>
+        <span class="cc capitalize mx-4 p-3 rounded color-ored d-none d-md-inline"><a class="underline-red a-tag" href="#">CC campaign</a></span>
+        <i class="fas fa-bars d-inline d-md-none color-ored bars mr-4"></i>
       </div>
     </nav>
 
     <main>
 
-      <section class="main-section d-flex flex-column align-items-center py-4 bg-light">
+      <section class="main-section d-flex flex-column align-items-center py-4">
 
         <div class="main-section-item d-flex flex-column justify-content-between">
 
@@ -70,14 +71,14 @@
 
       <section class="main-program d-flex flex-column align-items-center justify-content-center bg-dark">
 
-        <div class="py-4 mb-4 d-flex flex-column align-items-center">
+        <div class="py-4 my-4 d-flex flex-column align-items-center">
           <h2 class="main-program-title color-white font-weight-bold capitalize py-2">
             main program  
           </h2>
           <div class="line border-bottom border-danger"></div>
         </div>
 
-        <div class="d-flex program-grid my-4 py-4">
+        <div class="d-flex align-items-center justify-content-center flex-wrap program-grid m-4 py-4">
 
           <div class="d-flex flex-column align-items-center program-grid-item mr-1 justify-content-between py-4 px-2 cursor">
             <i class="fas fa-desktop program-icon color-white"></i>
@@ -131,13 +132,13 @@
 
         </div>
 
-        <a href="#" class="color-white title-prog prog-a">
+        <a href="#" class="color-white title-prog prog-a pb-4 mb-4">
           SEE THE WHOLE PROGRAM
         </a>
 
       </section>
 
-      <section class="speakers-section d-flex flex-column align-items-center my-4">
+      <section class="speakers-section d-flex flex-column align-items-center py-4">
 
         <div class="py-4 mb-4 d-flex flex-column align-items-center">
           <h2 class="main-program-title font-weight-bold capitalize py-2">
@@ -146,12 +147,12 @@
           <div class="line border-bottom border-danger"></div>
         </div>
 
-        <div class="d-flex flex-wrap feature justify-content-center">
+        <div class="col d-md-flex flex-column flex-md-row flex-md-wrap feature justify-content-center">
 
-          <div class="d-flex feature-item py-4 pr-3 my-4 cursor">
-            <img class="corner-img" src="img/coner-img.jpg" alt="">
+          <div class="col-12 col-lg-5 d-flex feature-item py-4 pr-3 my-4 cursor">
+            <img class="corner-img d-none d-md-block" src="img/coner-img.jpg" alt="">
             <img class="feature-img mr-3" src="img/feature-1.jpg" alt="1">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column pr-2">
               <div class="feature-author font-weight-bold">
                 Christensen Stwart
               </div>
@@ -165,10 +166,10 @@
             </div>
           </div>
 
-          <div class="d-flex feature-item py-4 my-4 cursor">
-            <img class="corner-img" src="img/coner-img.jpg" alt="">
+          <div class="col-12 col-lg-5 d-flex feature-item py-4 my-4 cursor">
+            <img class="corner-img d-none d-md-block" src="img/coner-img.jpg" alt="">
             <img class="feature-img mr-3" src="img/feature-2.jpeg" alt="1">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column pr-2">
               <div class="feature-author font-weight-bold">
                 Chakie Chon
               </div>
@@ -179,10 +180,10 @@
             </div>
           </div>
 
-          <div class="d-flex feature-item py-4 my-4 cursor">
-            <img class="corner-img" src="img/coner-img.jpg" alt="">
+          <div class="col-12 col-lg-5 d-flex feature-item py-4 my-4 cursor">
+            <img class="corner-img d-none d-md-block" src="img/coner-img.jpg" alt="">
             <img class="feature-img mr-3" src="img/feature-3.jpg" alt="1">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column pr-2">
               <div class="feature-author font-weight-bold">
                 SohYeong Noh
               </div>
@@ -196,10 +197,10 @@
             </div>
           </div>
 
-          <div class="d-flex feature-item py-4 my-4 cursor">
-            <img class="corner-img" src="img/coner-img.jpg" alt="">
+          <div class="col-12 col-lg-5 d-flex feature-item py-4 my-4 cursor">
+            <img class="corner-img d-none d-md-block" src="img/coner-img.jpg" alt="">
             <img class="feature-img mr-3" src="img/feature-4.jpg" alt="1">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column pr-2">
               <div class="feature-author font-weight-bold">
                 Julia Leda
               </div>
@@ -213,10 +214,10 @@
             </div>
           </div>
 
-          <div class="d-flex feature-item py-4 my-4 cursor">
-            <img class="corner-img" src="img/coner-img.jpg" alt="">
-            <img class="feature-img mr-3" src="img/feature-1.jpg" alt="1">
-            <div class="d-flex flex-column">
+          <div class="col-12 col-lg-5 d-flex feature-item py-4 my-4 cursor">
+            <img class="corner-img d-none d-md-block" src="img/coner-img.jpg" alt="">
+            <img class="feature-img mr-3" src="img/feature-5.jpg" alt="1">
+            <div class="d-flex flex-column pr-2">
               <div class="feature-author font-weight-bold">
                 Lila Tratikov
               </div>
@@ -230,10 +231,10 @@
             </div>
           </div>
 
-          <div class="d-flex feature-item py-4 my-4 cursor">
-            <img class="corner-img" src="img/coner-img.jpg" alt="">
-            <img class="feature-img mr-3" src="img/feature-1.jpg" alt="1">
-            <div class="d-flex flex-column">
+          <div class="col-12 col-lg-5 d-flex feature-item py-4 my-4 cursor">
+            <img class="corner-img d-none d-md-block" src="img/coner-img.jpg" alt="">
+            <img class="feature-img mr-3" src="img/feature-6.jpeg" alt="1">
+            <div class="d-flex flex-column pr-2">
               <div class="feature-author font-weight-bold">
                 Ryan Merkeley
               </div>
@@ -260,13 +261,13 @@
           <div class="line border-bottom border-danger"></div>
         </div>
 
-        <div class="d-flex justify-content-around align-items-center partner-section-icon">
+        <div class="d-flex flex-wrap justify-content-around align-items-center partner-section-icon">
 
-          <i class="fab fa-firefox-browser partner-icon color-gray cursor"></i>
-          <i class="fab fa-google partner-icon color-gray cursor"></i>
-          <img class="partner-img cursor" src="img/naver-logo.png" alt="">
-          <img class="partner-img-daum cursor" src="img/daumkakao.png" alt="">
-          <i class="fab fa-airbnb partner-icon color-gray cursor"></i>
+          <i class="fab fa-firefox-browser partner-icon color-gray cursor px-4"></i>
+          <i class="fab fa-google partner-icon color-gray cursor px-4"></i>
+          <img class="partner-img cursor px-4" src="img/naver-logo.png" alt="">
+          <img class="partner-img-daum cursor px-4" src="img/daumkakao.png" alt="">
+          <i class="fab fa-airbnb partner-icon color-gray cursor px-4"></i>
 
         </div>
 
@@ -274,11 +275,11 @@
 
     </main>
 
-    <footer class="footer d-flex">
+    <footer class="footer d-flex flex-wrap flex-sm-nowrap">
 
-      <img src="img/creative-commons.jpg" alt="">
+      <img class="footer-img w-sm" src="img/creative-commons.jpg" alt="">
 
-      <div class="mx-4 px-4 footer-text">
+      <div class="mx-4 px-4 footer-text w-100 w-sm">
         <h3>
           2015 Creative Commons Korea. Some Rights Reserved.
         </h3>
