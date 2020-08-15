@@ -1,0 +1,178 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-orange {
+  color: #ec5242;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.underline-red:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.a-tag,
+.a-tag:hover {
+  color: inherit;
+}
+
+.top-nav {
+  font-size: 1.3rem;
+  height: 2.5rem;
+}
+
+.bot-nav {
+  height: 6rem;
+  font-size: 1.5rem;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  object-fit: cover;
+  width: 10rem;
+  height: 5rem;
+}
+
+.cc {
+  border: 2px solid red;
+}
+
+.bars {
+  font-size: 3.5rem;
+}
+
+.main-section {
+  background: rgba(163, 163, 163, 0.1);
+  width: 100%;
+}
+
+.main-section-item {
+  margin: 3vw auto;
+  height: 100%;
+}
+
+.border-div {
+  background: url(../img/border-bg.jpg);
+  background-size: 15rem;
+}
+
+.prices {
+  width: 70vw;
+}
+
+.rhomb {
+  width: 5rem;
+  height: 5rem;
+  background-color: #ec5242;
+  transform: rotateZ(45deg) translate(-1.7rem, -1.7rem);
+  font-size: 3rem;
+}
+
+.f-1 {
+  font-size: 1.4rem;
+}
+
+.prices-1 {
+  font-weight: bold;
+}
+
+.prices-item {
+  height: 4rem;
+  font-weight: bold;
+}
+
+.prices-item-b {
+  height: 5rem;
+  font-weight: bold;
+}
+
+.main-program-title {
+  font-size: 2vw;
+}
+
+.s-days {
+  height: 200%;
+}
+
+.prices-s {
+  width: 100%;
+}
+
+.f-2 {
+  font-size: 1.2rem;
+}
+
+.line {
+  width: 4rem;
+}
+
+.middle-text {
+  font-size: 1.4rem;
+  margin: auto 3vw;
+}
+
+.menu-1 {
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.footer {
+  padding: 6vw;
+  background-color: #3a3a3a;
+}
+
+.footer-img {
+  height: 8vw;
+  filter: invert(77%);
+}
+
+.footer-text {
+  width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .footer-img {
+    height: 6rem;
+  }
+
+  .main-program-title {
+    font-size: 1.8rem;
+  }
+}

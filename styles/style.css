@@ -6,14 +6,10 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'cocogoose';
-  src: url('Cocogoose-Bold.ttf') format('ttf');
-}
-
 html {
   box-sizing: border-box;
   font-size: 62%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -83,7 +79,7 @@ body {
 }
 
 .main-section {
-  background-image: url(../img/main-bg.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/main-bg.png);
 }
 
 .main-section-item {
