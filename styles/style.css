@@ -195,7 +195,8 @@ body {
 }
 
 .partner-section-icon {
-  padding: auto 5vw auto 5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .partner-icon {
