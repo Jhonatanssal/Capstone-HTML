@@ -35,7 +35,7 @@ body {
 }
 
 .color-gray {
-  color: gray;
+  color: #272a31;
 }
 
 .cursor {
@@ -44,7 +44,7 @@ body {
 
 .underline-red:hover {
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: #ec5242;
 }
 
 .a-tag,
@@ -70,7 +70,7 @@ body {
 }
 
 .cc {
-  border: 2px solid red;
+  border: 2px solid #ec5242;
 }
 
 .bars {
@@ -106,7 +106,7 @@ body {
 }
 
 .little-text-div {
-  border: 3px solid gray;
+  border: 3px solid #272a31;
   background-color: rgba(255, 255, 255, 0.5);
   width: 75%;
   font-size: 1.2vw;
@@ -140,7 +140,7 @@ body {
 
 .past {
   width: 20vw;
-  height: 14vw;
+  height: auto;
   font-size: 1.3rem;
 }
 
@@ -171,7 +171,7 @@ body {
 @media only screen and (max-width: 1024px) {
   .past {
     width: 100%;
-    height: 10rem;
+    height: auto;
   }
 }
 

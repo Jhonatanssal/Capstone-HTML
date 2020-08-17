@@ -35,7 +35,7 @@ body {
 }
 
 .color-gray {
-  color: gray;
+  color: #272a31;
 }
 
 .cursor {
@@ -70,7 +70,7 @@ body {
 }
 
 .cc {
-  border: 2px solid red;
+  border: 2px solid #ec5242;
 }
 
 .bars {
@@ -92,7 +92,7 @@ body {
 }
 
 .main-section {
-  background: rgba(163, 163, 163, 0.1);
+  background: #d3d3d3;
   width: 100%;
 }
 

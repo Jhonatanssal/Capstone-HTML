@@ -35,7 +35,7 @@ body {
 }
 
 .color-gray {
-  color: gray;
+  color: #272a31;
 }
 
 .cursor {
@@ -44,7 +44,7 @@ body {
 
 .underline-red:hover {
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: #ec5242;
 }
 
 .a-tag,
@@ -70,7 +70,7 @@ body {
 }
 
 .cc {
-  border: 2px solid red;
+  border: 2px solid #ec5242;
 }
 
 .bars {
@@ -111,7 +111,7 @@ body {
 }
 
 .little-text-div {
-  border: 3px solid gray;
+  border: 3px solid #272a31;
   background-color: rgba(200, 200, 200, 0.5);
   width: 57%;
   font-size: 1.2vw;
@@ -155,12 +155,14 @@ body {
   font-size: 1.25rem;
 }
 
-.prog-a {
-  text-decoration: underline;
+.middle-text {
+  font-size: 1.4rem;
+  margin: auto 5vw;
 }
 
 .prog-a:hover {
   color: white;
+  text-decoration: underline;
 }
 
 .feature {
@@ -197,7 +199,7 @@ body {
 .line-b {
   margin: 0.5rem;
   width: 2.5rem;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #272a31;
 }
 
 .partner-section {
