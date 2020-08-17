@@ -9,6 +9,7 @@
 html {
   box-sizing: border-box;
   font-size: 62%;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -54,6 +55,7 @@ body {
 .top-nav {
   font-size: 1.3rem;
   height: 2.5rem;
+  background-color: #272a31;
 }
 
 .bot-nav {
@@ -64,9 +66,7 @@ body {
 }
 
 .nav-logo {
-  object-fit: cover;
-  width: 10rem;
-  height: 5rem;
+  height: 4rem;
 }
 
 .cc {
@@ -75,6 +75,20 @@ body {
 
 .bars {
   font-size: 3.5rem;
+}
+
+.menu {
+  position: absolute;
+  list-style: none;
+  font-size: 1.5rem;
+  display: none;
+  width: 10rem;
+  right: 0;
+}
+
+.menu-cont:hover .menu {
+  display: block;
+  background-color: #ec5242;
 }
 
 .main-section {
@@ -147,6 +161,10 @@ body {
   margin: auto 3vw;
 }
 
+.menu-title {
+  background-color: #d3d3d3;
+}
+
 .menu-1 {
   margin-bottom: 1rem;
   align-items: center;
@@ -154,11 +172,11 @@ body {
 
 .footer {
   padding: 6vw;
-  background-color: #3a3a3a;
+  background-color: #272a31;
 }
 
 .footer-img {
-  height: 8vw;
+  height: 5vw;
   filter: invert(77%);
 }
 

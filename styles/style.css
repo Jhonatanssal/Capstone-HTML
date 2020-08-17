@@ -9,7 +9,7 @@
 html {
   box-sizing: border-box;
   font-size: 62%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -55,6 +55,7 @@ body {
 .top-nav {
   font-size: 1.3rem;
   height: 2.5rem;
+  background-color: #272a31;
 }
 
 .bot-nav {
@@ -65,9 +66,7 @@ body {
 }
 
 .nav-logo {
-  object-fit: cover;
-  width: 10rem;
-  height: 5rem;
+  height: 4rem;
 }
 
 .cc {
@@ -76,6 +75,20 @@ body {
 
 .bars {
   font-size: 3.5rem;
+}
+
+.menu {
+  position: absolute;
+  list-style: none;
+  font-size: 1.5rem;
+  display: none;
+  width: 10rem;
+  right: 0;
+}
+
+.menu-cont:hover .menu {
+  display: block;
+  background-color: #ec5242;
 }
 
 .main-section {
@@ -131,8 +144,9 @@ body {
 }
 
 .program-grid-item {
+  margin-top: 2px;
   width: 15rem;
-  height: 20rem;
+  height: 25rem;
   background-color: rgba(150, 150, 150, 0.3);
   text-align: center;
 }
@@ -188,6 +202,7 @@ body {
 
 .partner-section {
   height: 18rem;
+  background-color: #272a31;
 }
 
 .partner-section-icon {
@@ -216,7 +231,7 @@ body {
 }
 
 .footer-img {
-  height: 8vw;
+  height: 5vw;
 }
 
 .footer-text {

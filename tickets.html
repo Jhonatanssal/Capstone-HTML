@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,7 +15,7 @@
 
   <div class="container-fluid">
 
-    <nav class="d-none d-md-flex justify-content-end align-items-center top-nav bg-dark color-white">
+    <nav class="d-none d-md-flex justify-content-end align-items-center top-nav color-white">
       <i class="fab fa-facebook-f top-nav-item pr-3"></i>
       <i class="fab fa-twitter top-nav-item pr-3"></i>
       <span class="capitalize top-nav-item pr-3">English</span>
@@ -31,7 +32,13 @@
         <span class="capitalize px-4 d-none d-md-inline"><a class="underline-red a-tag" href="tickets.html">tickets</a></span>
         <span class="capitalize px-4 d-none d-md-inline"><a class="underline-red a-tag" href="#">join</a></span>
         <span class="cc capitalize mx-4 p-3 rounded color-orange d-none d-md-inline"><a class="underline-red a-tag" href="#">CC campaign</a></span>
-        <i class="fas fa-bars d-inline d-md-none color-orange bars mr-4"></i>
+        <div class="d-inline menu-cont">
+          <a class="bars" href="#"><i class="fas fa-bars d-inline d-md-none color-orange bars mr-4"></i></a>
+          <ul class="menu f-1 color-white font-weight-bold p-a">
+            <li class="menu-item p-4"><a class="capitalize underline-red a-tag" href="index.html">home</a></li>
+            <li class="menu-item p-4"><a class="capitalize underline-red a-tag" href="about.html">about</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -42,9 +49,9 @@
         <div class="main-section-item d-flex flex-column justify-content-between align-items-center">
 
           <div class="py-4 my-4 d-flex flex-column align-items-center main-1-item">
-            <h2 class="main-program-title font-weight-bold capitalize py-2 text-center">
+            <h1 class="main-program-title font-weight-bold capitalize py-2 text-center">
               select ticktes 
-            </h2>
+            </h1>
             <div class="line border-bottom border-danger"></div>
             <div class="middle-text border border-secondary rounded-pill my-5  py-2 px-4">
               <span class="color-orange">&#8226; Step 1</span>
@@ -159,7 +166,7 @@
         </div>
 
         <div class="menus prices col mb-4">
-          <div class="col-12 d-flex justify-content-center py-4 bg-light align-items-center f-1 font-weight-bold">Day-1
+          <div class="menu-title col-12 d-flex justify-content-center py-4 align-items-center f-1 font-weight-bold">Day-1
           </div>
           <div class="row py-5">
             <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
@@ -190,7 +197,7 @@
         </div>
 
         <div class="menus prices col my-5">
-          <div class="col-12 d-flex justify-content-center py-4 bg-light align-items-center f-1 font-weight-bold">Day-2
+          <div class="menu-title col-12 d-flex justify-content-center py-4 align-items-center f-1 font-weight-bold">Day-2
           </div>
           <div class="row py-5">
             <div class="menu-1 col-lg-2 d-flex justify-content-center f-1">
@@ -224,16 +231,17 @@
 
     </main>
 
-    <footer class="footer d-flex flex-wrap flex-sm-nowrap mt-5">
+    <footer class="footer d-flex flex-wrap flex-sm-nowrap mt-5 justify-content-center align-items-center">
 
-      <img class="footer-img w-sm" src="img/creative-commons.jpg" alt="">
+      <img class="footer-img w-sm" src="img/nav-logo.png" alt="">
 
       <div class="mx-4 px-4 footer-text w-100 w-sm color-white">
-        <h3>
-          2015 Creative Commons Korea. Some Rights Reserved.
+        <h3 class="font-weight-bold middle-text">
+          Gartner Customer Experience & Technologies Summit
         </h3>
-        <p class="">
-          모든 사람은 교육을 받을 권리를 가진다 . 교육은 최소한 초등 및 기초단계에서는 무상이어야 한다. 초등교육은 의무적이어야 한다. 기술 및 직업교육은 일반적으로 접근이 가능하여야 하며, 고등교육은 모든 사람에게 실력에 근거하여 동등하게 접근 가능하여야 한다.
+        <p class="middle-text">
+          8 – 9 June 2020 | London, UK
+          Customer experience (CX) management is at the top of CEOs’ agenda and the core part of organization’s digital transformation program.
         </p>
       </div>
 
