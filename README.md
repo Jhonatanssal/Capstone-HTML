@@ -17,8 +17,6 @@ Building a page using HTML, CSS and Bootsrap that matches the appearance of this
 
 [Click here for Live Demo](https://jssarrazolaa.github.io/Capstone-HTML/)
 
-# Getting Started
-
 # Authors
 
 ### Jhonatan Sarrazola
