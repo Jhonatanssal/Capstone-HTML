@@ -11,6 +11,7 @@ Building a page using HTML, CSS and Bootsrap that matches the appearance of this
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://www.w3schools.com/css/)
 - [FontAwesome](https://fontawesome.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 
 # Live Demo
