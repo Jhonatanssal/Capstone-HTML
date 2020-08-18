@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-orange {
+  color: #ec5242;
+}
+
+.color-gray {
+  color: #272a31;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.underline-red:hover {
+  text-decoration: underline;
+  text-decoration-color: #ec5242;
+}
+
+.a-tag,
+.a-tag:hover {
+  color: inherit;
+}
+
+.top-nav {
+  font-size: 1.3rem;
+  height: 2.5rem;
+  background-color: #272a31;
+}
+
+.bot-nav {
+  height: 6rem;
+  font-size: 1.5rem;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  height: 4rem;
+}
+
+.cc {
+  border: 2px solid #ec5242;
+}
+
+.bars {
+  font-size: 3.5rem;
+}
+
+.menu {
+  position: absolute;
+  list-style: none;
+  font-size: 1.5rem;
+  display: none;
+  width: 10rem;
+  right: 0;
+}
+
+.menu-cont:hover .menu {
+  display: block;
+  background-color: #ec5242;
+}
+
+.main-section {
+  background: url(../img/main-bg.png);
+}
+
+.main-section-item {
+  margin: 7vw;
+  height: 100%;
+}
+
+.main-title {
+  font-size: 5vw;
+  line-height: 4.5vw;
+}
+
+.little-text-div {
+  border: 3px solid #272a31;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 75%;
+  font-size: 1.2vw;
+}
+
+.date-bold {
+  font-size: 2rem;
+}
+
+.main-program {
+  height: auto;
+  background: linear-gradient(rgba(230, 230, 230, 0.2), rgba(230, 230, 230, 0.2));
+}
+
+.line {
+  width: 4rem;
+}
+
+.middle-text {
+  font-size: 1.4rem;
+  margin: auto 5vw;
+}
+
+.middle-logo {
+  width: 30vw;
+}
+
+.middle-logo-div {
+  width: 35vw;
+}
+
+.past {
+  width: 20vw;
+  height: auto;
+  font-size: 1.3rem;
+}
+
+.past-1 {
+  background: linear-gradient(rgba(177, 7, 7, 0.5), rgba(177, 7, 7, 0.5)), url(../img/past-1.jpg);
+  background-size: cover;
+}
+
+.past-2 {
+  background: linear-gradient(rgba(177, 7, 7, 0.5), rgba(177, 7, 7, 0.5)), url(../img/past-2.jpg);
+  background-size: cover;
+}
+
+.footer {
+  padding: 6vw;
+  background-color: #272a31;
+}
+
+.footer-img {
+  height: 5vw;
+  filter: invert(77%);
+}
+
+.footer-text {
+  width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .past {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .hello-title {
+    font-size: 2rem;
+  }
+
+  .little-text-div {
+    font-size: 1.2rem;
+  }
+
+  .footer-img {
+    height: 6rem;
+  }
+
+  .past {
+    width: 100%;
+    height: auto;
+  }
+}
